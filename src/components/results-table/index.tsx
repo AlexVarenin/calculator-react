@@ -1,10 +1,9 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ResultHistoryRecord from '../../interfaces/result-history.interface';
-import { ResultsContext } from '../../App';
-import firebase from 'firebase';
+import { ResultsContext } from '../../services/results-history.context';
+import firebase from 'firebase/app';
 import { format } from 'date-fns';
 import './index.css';
-
 
 type DataSnapshot = firebase.database.DataSnapshot;
 
