@@ -1,0 +1,22 @@
+.save-button {
+    background: none;
+    border: none;
+    visibility: hidden;
+}
+
+.screen-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-wrapper div {
+    margin: 10px 5px;
+    font-size: 50px;
+    color: white;
+}
+
+.screen-wrapper:hover .save-button {
+    visibility: visible;
+    cursor: pointer;
+}
+
