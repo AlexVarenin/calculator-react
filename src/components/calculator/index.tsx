@@ -1,7 +1,8 @@
-import { useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Keyboard from './keyboard';
 import Screen from './screen';
-import { CalculationContext, ResultsContext } from '../../App';
+import { CalculationContext } from '../../services/calc.context';
+import { ResultsContext } from '../../services/results-history.context';
 import './index.css';
 
 const Calculator = () => {

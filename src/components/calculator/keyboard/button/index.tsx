@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.css';
 
 const Button = ({ onClick, children, className }: { onClick?: () => void, className?: string, children: string }) => (

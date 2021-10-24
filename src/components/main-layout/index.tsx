@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Calculator from '../calculator';
 import ResultsTable from '../results-table';
 import Background from '../../assets/images/frame.png';
-import './main-layout.css';
+import './index.css';
 
 const MainLayout = () => {
 
