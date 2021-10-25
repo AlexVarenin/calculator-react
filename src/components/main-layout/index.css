@@ -10,12 +10,12 @@
     width: 660px;
 }
 
-.carousel.history {
+.carousel.calculation {
     transform: translateX(-330px);
     transition: transform 0.3s ease-in-out;
 }
 
-.carousel.results {
+.carousel.history {
     transform: translateX(0);
     transition: transform 0.3s ease-in-out;
 }
@@ -32,8 +32,8 @@
     cursor: pointer;
 }
 
-.switch-view-button.history {
-    transform: translateX(-250px);
+.switch-view-button.calculation {
+    transform: translateX(-220px);
     color: black;
 }
 
@@ -43,4 +43,3 @@
     height: 500px;
     padding: 50px 20px;
 }
-
