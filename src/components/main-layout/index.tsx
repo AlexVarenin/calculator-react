@@ -16,8 +16,8 @@ const MainLayout = () => {
                  backgroundRepeat: 'no-repeat'
              }}>
             <div className="calc-wrapper">
-                <button className={`switch-view-button ${mode}`} onClick={() => setMode(mode === 'history' ? 'results' : 'history')}>
-                    { mode ? `to ${ mode }` : 'to results' }
+                <button className={`switch-view-button ${mode}`} onClick={() => setMode(mode === 'calculation' ? 'history' : 'calculation')}>
+                    { mode ? `to ${ mode }` : 'to history' }
                 </button>
                 <div className={`carousel ${ mode }`}>
                     <Calculator></Calculator>
